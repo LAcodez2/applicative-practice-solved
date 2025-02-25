@@ -5,10 +5,15 @@ import { data } from "../data/data";
 // Return example: ['name1', 'name2', ... , 'nameN']
 
 export function getPlanetsWithNoMoons(data) {
-  // Your code goes here...
+  const planetsWithoutMoons = data.planets
+    .filter(function (planet) {
+      return planet.moonsCount === 0;
+    })
+    .map(function (planet) {
+      return planet.name;
+    });
+  return planetsWithoutMoons;
 }
-
-
 
 // === TEST YOURSELF ===
 // Once you're finished run the test with "npm run test-15"

@@ -6,9 +6,12 @@ import { data } from "../data/data";
 
 export function allPlanetsMoonsCount(data) {
   // Your code goes here...
+  const planetsAndMoons = data.planets.reduce(
+    (total, planet) => total + (planet.moonsCount || 0),
+    0
+  );
+  return planetsAndMoons;
 }
-
-
 
 // === TEST YOURSELF ===
 // Once you're finished run the test with "npm run test-12"

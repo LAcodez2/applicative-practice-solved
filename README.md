@@ -1,11 +1,11 @@
 ## GETTING STARTED
-- Clone this repository.
-- Create a new repository in your Github account. Set it to be a public repo. Copy the new repo SSH path.
-- Open the cloned repo project in your favorite IDE. Start a terminal session.
-- Update/change the remote origin path with to the new SSH path **OR** add a new path (f.i "solved" or "destination"). [Github's git remote actions docs](https://docs.github.com/en/get-started/getting-started-with-git/managing-remote-repositories).
-- Push the main/master branch to the new repository.
-- Run ```npm i``` to install dependencies and packages.
-- Start solving the exercises, following the "HOW IT WORKS" section.
+x Clone this repository.
+x Create a new repository in your Github account. Set it to be a public repo. Copy the new repo SSH path.
+x Open the cloned repo project in your favorite IDE. Start a terminal session.
+x Update/change the remote origin path with to the new SSH path **OR** add a new path (f.i "solved" or "destination"). [Github's git remote actions docs](https://docs.github.com/en/get-started/getting-started-with-git/managing-remote-repositories).
+x Push the main/master branch to the new repository.
+x Run ```npm i``` to install dependencies and packages.
+x Start solving the exercises, following the "HOW IT WORKS" section.
 
 ## HOW IT WORKS
 - The repo has the "exercises" folder with 16 exercise files (e1.js .. e16.js). Each file includes the task description, a function declared, data imported, and a placeholder for your code.
