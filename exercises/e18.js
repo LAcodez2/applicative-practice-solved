@@ -3,6 +3,7 @@
  * Return the year with the greatest number of Asteroids discoveries
  * Return example: 1902
  */
+import { maxBy } from "./e17";
 
 export function getGreatestDiscoveryYear(data) {
   const yearCounts = data.asteroids.reduce((acc, asteroid) => {
